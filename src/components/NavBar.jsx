@@ -5,10 +5,10 @@ import Badge from "@material-ui/core/Badge";
 
 // style
 const Container = styled.div`
-	height: 60px;
+	padding: auto;
 `;
 const Wrapper = styled.div`
-	padding: 10px 20px;
+	padding: 0px 20px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -51,7 +51,7 @@ const Right = styled.div`
 const MenuItem = styled.div`
 	font-size: 14px;
 	cursor: pointer;
-	margin: 10px;
+	margin-left: 25px;
 `;
 
 // style
@@ -63,7 +63,7 @@ const NavBar = () => {
 					<Language>En</Language>
 					<SearchContainer>
 						<Input />
-						<Search style={{ color: "gray", fontSize: "16px" }} />
+						<Search style={{ color: "gray", fontSize: "14px" }} />
 					</SearchContainer>
 				</Left>
 
