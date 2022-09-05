@@ -69,7 +69,7 @@ const Icon = styled.div`
 
 
 const Product = ({product}) => {
-   console.log("🚀 ~ file: Product.jsx ~ line 20 ~ Product ~ product", product.img)
+  
    
   return (
     <Container>
