@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
+	font-size: 1rem;
 	width: 100vw;
 	height: 100vh;
 	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(51, 4, 4, 0.5)),

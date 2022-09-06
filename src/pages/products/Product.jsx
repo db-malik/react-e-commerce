@@ -8,7 +8,9 @@ import Footer from "../../components/Footer";
 
 import { Add, Remove } from "@material-ui/icons";
 /*    **********************************************     */
-const Container = styled.div``;
+const Container = styled.div`
+	font-size: 1rem;
+`;
 
 const Wrapper = styled.div`
 	margin: 40px;
