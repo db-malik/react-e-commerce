@@ -7,6 +7,8 @@ import Newsletter from "../../components/Newsletter";
 import Footer from "../../components/Footer";
 
 import { Add, Remove } from "@material-ui/icons";
+
+import { mobile } from "../../responsive";
 /*    **********************************************     */
 const Container = styled.div`
 	font-size: 1rem;
@@ -18,6 +20,7 @@ const Wrapper = styled.div`
 	justify-content: space-around;
 	align-items: flex-start;
 	gap: 40px;
+	${mobile({ flexDirection: "column" })}
 `;
 
 const ImageContainer = styled.div`
@@ -28,6 +31,7 @@ const Image = styled.img`
 	width: 100%;
 	height: 100vh;
 	object-fit: cover;
+	${mobile({ height: "20vh" })};
 `;
 
 const InfoContainer = styled.div`
