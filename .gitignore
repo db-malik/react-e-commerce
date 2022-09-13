@@ -2,7 +2,7 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-.vscode
+/vscode
 API/node_modules
 UI/node_modules
 
